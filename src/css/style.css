@@ -1,0 +1,58 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Manrope", sans-serif;
+}
+
+p {
+    font-family: "Manrope", sans-serif;
+}
+
+body{
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.flex-card{
+    background-color: var(--background-card);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 350px;
+}
+
+.flex-card p{
+    color: var(--btn-card-color);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 25px 0;
+}
+
+.flex-card h3{
+    color: var(--text-color);
+    font-size: 20spx;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.flex-card  picture img {
+    width: 100%;
+  }
+
+.flex-card  .advice-update {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    transform: translateY(85%);  
+  }
+.flex-card  .advice-update:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+  }
